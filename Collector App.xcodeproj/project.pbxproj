@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		FF30B94A23EFB4C300E17FFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF30B94923EFB4C300E17FFE /* AppDelegate.swift */; };
-		FF30B94C23EFB4C300E17FFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF30B94B23EFB4C300E17FFE /* ViewController.swift */; };
 		FF30B94F23EFB4C300E17FFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF30B94D23EFB4C300E17FFE /* Main.storyboard */; };
 		FF30B95223EFB4C300E17FFE /* Collector_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF30B95023EFB4C300E17FFE /* Collector_App.xcdatamodeld */; };
 		FF30B95423EFB4C400E17FFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF30B95323EFB4C400E17FFE /* Assets.xcassets */; };
 		FF30B95723EFB4C400E17FFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF30B95523EFB4C400E17FFE /* LaunchScreen.storyboard */; };
+		FF30B95F23EFB4FD00E17FFE /* CollectorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF30B95E23EFB4FD00E17FFE /* CollectorTableViewController.swift */; };
+		FF30B96323F1026400E17FFE /* CreateCollectableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF30B96223F1026400E17FFE /* CreateCollectableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FF30B94623EFB4C300E17FFE /* Collector App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Collector App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF30B94923EFB4C300E17FFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF30B94B23EFB4C300E17FFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF30B94E23EFB4C300E17FFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF30B95123EFB4C300E17FFE /* Collector_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Collector_App.xcdatamodel; sourceTree = "<group>"; };
 		FF30B95323EFB4C400E17FFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF30B95623EFB4C400E17FFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF30B95823EFB4C400E17FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF30B95E23EFB4FD00E17FFE /* CollectorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectorTableViewController.swift; sourceTree = "<group>"; };
+		FF30B96223F1026400E17FFE /* CreateCollectableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCollectableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				FF30B94923EFB4C300E17FFE /* AppDelegate.swift */,
-				FF30B94B23EFB4C300E17FFE /* ViewController.swift */,
 				FF30B94D23EFB4C300E17FFE /* Main.storyboard */,
+				FF30B95E23EFB4FD00E17FFE /* CollectorTableViewController.swift */,
+				FF30B96223F1026400E17FFE /* CreateCollectableViewController.swift */,
 				FF30B95323EFB4C400E17FFE /* Assets.xcassets */,
 				FF30B95523EFB4C400E17FFE /* LaunchScreen.storyboard */,
 				FF30B95823EFB4C400E17FFE /* Info.plist */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF30B94C23EFB4C300E17FFE /* ViewController.swift in Sources */,
 				FF30B95223EFB4C300E17FFE /* Collector_App.xcdatamodeld in Sources */,
+				FF30B96323F1026400E17FFE /* CreateCollectableViewController.swift in Sources */,
 				FF30B94A23EFB4C300E17FFE /* AppDelegate.swift in Sources */,
+				FF30B95F23EFB4FD00E17FFE /* CollectorTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
